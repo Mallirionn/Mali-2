@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+  <link href="form.css" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <title>Формы</title>
+</head>
+<body>
+     <form method="post"></form>
+  <fieldset>
+    <legend>Контактная информация</legend>
+ <label
+ >Имя</label>
+    <input type="text" name="username" placeholder="Введите полное имя" />
+    <label>Контактный телефон</label>
+    <input type="tel" name="telnumber" value="+7 ">
+    <label>Email</label>
+    <input type="email" name="mail" placeholder="Электронная почта"/>
+    </fieldset>
+    <fieldset>
+<legend>Личные данные</legend>
+<label>Возраст</label>
+<input type="text" name="age" placeholder=""/>
+<div>
+  <label>Ваш пол</label>
+<label class="radiosex">М
+<input type="radio" name="sex" value="male"/>
+</label>
+<label class="radiosex">Ж
+<input type="radio" name="sex" value="female"/>
+</label>
+</div>
+<label>Личные качества</label>
+<textarea name="perqualit" cols="25px" rows="7px" placeholder="Опишите ваши сильные стороны"></textarea>
+    </fieldset>
+  </form>
+</body>
+ 

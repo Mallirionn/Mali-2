@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Боже дай мне сил 2.0</title>
+
+
+<body>
+  <p>Привет</p>
+  <script>
+    let string = "Пупа получил зарплату за лупу";
+
+    let array = string.split("");
+    console.log(array);
+
+    let filtredLetters = array.filter((array) => array !== " ");
+
+    console.log(filtredLetters);
+
+    let reverseArray = filtredLetters.reverse();
+
+    console.log(reverseArray);
+
+    let reversJoinArray = reverseArray.join(" ");
+
+    console.log(reversJoinArray);
+
+    console.log(reversJoinArray.length);
+
+    let i = 0;
+    while (i < reversJoinArray.length);
+    {
+      console.log(reversJoinArray[i]);
+      i++;
+    }
+  </script>
+</body>
+</head>
+</html>

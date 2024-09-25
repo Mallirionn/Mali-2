@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  width: 50%;
+  empty-cells: show;
+  border-bottom: 2px solid #6b6bff;
+}
+th,
+th {
+  text-transform: uppercase;
+  border-top: 1px solid #ffffff;
+  border-bottom: 2px solid #6b6bff;
+  text-align: left;
+}
+.money {
+  text-align: right;
+}
+tr:hover {
+  background-color: rgb(182, 174, 255);
+}
+th[class] {
+  background-color: #e6e6ff;
+}
+td {
+  padding: 7px 10px 10px 10px;
+}
